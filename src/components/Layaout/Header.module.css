@@ -1,0 +1,77 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position:absolute;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    left: 150px;
+    top: 0;
+    background-color: #2C2F33;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+}
+
+.nav{
+    display: flex;
+    margin-right: 40px;
+
+}
+
+.nav img{
+    margin-right: 50px;
+}
+
+.container_buttons .button_dashboard{
+    margin-right: 25px;
+}
+
+.container_buttons {
+    display: flex;
+    list-style: none;
+    
+}
+
+.container_buttons .button_dashboard {
+    width: 125px;
+    height: 45px;
+    border-radius: 13px;
+    color: #1A91FA;
+    background: #2C2F33;
+    font-weight: 600;
+    font-size: 1.5rem;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.container_buttons .button_help{
+    width: 125px;
+    height: 45px;
+    border-radius: 13px;
+    color: #CEDBDC;
+    background: #2C2F33;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.nav .alert {
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+.nav .avatar {
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 50%;
+}
+
+.nav .user{
+    width: 150px;
+    height: 45px;
+    border-radius: 13px;
+    color: #ffffff;
+    background: #2C2F33;
+    font-weight: 600;
+    font-size: 1.5rem;
+    box-shadow: 0px 4px 4px 0px #00000040; 
+}
+
+
