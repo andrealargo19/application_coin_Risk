@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
-import alert from '../../assets/alert_icon.png';
-import avatar from '../../assets/avatar_icon.png';
-import downarrow from '../../assets/downarrow_icon.png';
+import alert from '../assets/alert_icon.png';
+import avatar from '../assets/avatar_icon.png';
+import downarrow from '../assets/downarrow_icon.png';
 import classes from './Header.module.css';
 
 
@@ -17,7 +17,7 @@ export default function Header() {
           <img className={classes.alert} src={alert} alt=" alert icon"/>
           <img className={classes.avatar} src={avatar} alt=" avatar icon"/>
           <button className={classes.user}>
-            Sara Frank
+            <span>Sara Frank</span>
             <img className={classes.arrow} src={downarrow} alt="arrow icon"/>
           </button>
         </nav>
