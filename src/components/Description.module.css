@@ -1,14 +1,15 @@
 .container_description{
     width: 70%;
-    height: 200px;
+    height: 170px;
+    margin: 30px auto 0 auto;
     background-color: #2C2F33;
     box-shadow: -6.22302px -6.22302px 18.6691px #3B4451, 6.22302px 6.22302px 18.6691px #000000;
     border-radius: 20px;
-    padding:15px;
+    padding:20px;
 }
 
 .container_description h1{
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: bold;
     text-align: left;
     padding: 10px;
@@ -21,8 +22,8 @@
 }
 
 .container_description p{
-    font-size: 0.8rem;
-    padding: 15px;
+    font-size: 0.6rem;
+    padding: 12px;
     text-align: left;
     color:white;
     background-color: #2C2F33;

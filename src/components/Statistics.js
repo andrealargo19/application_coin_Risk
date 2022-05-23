@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
 import classes from './Statistics.module.css';
 
+
+
 export default function Statistics(props) {
   const ListItems = () => {
     const ListComponent = {};
@@ -22,50 +24,74 @@ export default function Statistics(props) {
   };
 
   return (
-      <Fragment>
-        <div className={classes.general_container}> 
-          <div className={classes.container_flex}>
-          <h1>DEVELOPER PERFORMANCE</h1>
-            <div className={classes.item_flex}>
-              <h4>ITEMS</h4>
-              <h4>RESULTS</h4>
-            </div>
-            <div className={classes.item_flex}>
-              <p>forks:</p>
-              {ListItems().forks}
-              <p>stars:</p>
-              {ListItems().stars}
-              <p>subscribers:</p>
-              {ListItems().subscribers}
-              <p>total issues:</p>
-              {ListItems().total_issues}
-              <p>PR contributors:</p>
-              {ListItems().pull_request_contributors}
-              <p>PR merged:</p>
-              {ListItems().pull_requests_merged}
-              <p>Closed Issues:</p>
-              {ListItems().closed_issues}
-            </div>
+  <Fragment>
+    <div className={classes.general_container}> 
+      <div className={classes.container_flex}>
+      <h1>DEVELOPER PERFORMANCE</h1>
+        <div className={classes.item_flex_title}>
+          <h4>ITEMS</h4>
+          <h4>RESULTS</h4>
+        </div>
+        <div className={classes.item_flex}>
+          <div>
+            <p>forks:</p>
+            {ListItems().forks}
           </div>
-          <div className={classes.container_flex}>
-          <h1>PROJECT STATISTICS</h1>
-            <div className={classes.item_flex}>
-              <h4>ITEMS</h4>
-              <h4>RESULTS</h4>
-            </div>
-            <div className={classes.item_flex}>
+         <div>
+          <p>stars:</p>
+            {ListItems().stars}
+         </div>
+        <div>
+        <p>subscribers:</p>
+          {ListItems().subscribers}
+        </div>
+        <div>
+        <p>total issues:</p>
+          {ListItems().total_issues}
+        </div>
+        <div>
+        <p>PR contributors:</p>
+          {ListItems().pull_request_contributors}
+        </div> 
+        <div>
+        <p>PR merged:</p>
+          {ListItems().pull_requests_merged}
+        </div>
+        <div>
+        <p>Closed Issues:</p>
+          {ListItems().closed_issues}
+        </div>  
+        </div>
+      </div>
+
+      {/* proyecto statistics */}
+      <div className={classes.container_flex}>
+      <h1>PROJECT STATISTICS</h1>
+        <div className={classes.item_flex_title}>
+          <h4>ITEMS</h4>
+          <h4>RESULTS</h4>
+        </div>
+        <div className={classes.item_flex}>
+          <div>
             <p>Market cap rank:</p>
-              {ListItems().market_cap_rank}
+            {ListItems().market_cap_rank}
+          </div>
+          <div>
             <p>Coingecko rank:</p>
-              {ListItems().coingecko_rank}
+            {ListItems().coingecko_rank}
+          </div>
+          <div>
             <p>Coingecko score:</p>
-              {ListItems().coingecko_score}
-            <p>Developer score:</p>
-              {ListItems().developer_score}
-            </div>
+            {ListItems().coingecko_score}
+          </div>
+          <div>
+          <p>Developer score:</p>
+          {ListItems().developer_score}
           </div>
         </div>
-      </Fragment>
+      </div>
+    </div>
+  </Fragment>
    
   )
 }

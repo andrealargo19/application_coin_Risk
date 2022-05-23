@@ -1,13 +1,14 @@
-import React, { Fragment, useEffect, useState } from 'react'
+import React, { Fragment } from 'react'
 import { useParams } from 'react-router-dom';
 import Header from '../components/Header';
 import Sidebar from '../components/Sidebar';
 import Aside from '../components/Aside';
-import Main from '../components/Main';
+import MainDetail from '../components/MainDetail';
 import Statistics from '../components/Statistics';
 import Description from '../components/Description';
-
 import classes from './DetailsProjects.module.css';
+
+
 
 export default function DetailsProjects(props) {
   const params = useParams();
@@ -22,7 +23,8 @@ export default function DetailsProjects(props) {
         <div className={classes.Sidebar}><Sidebar/></div>
         <div className={classes.Aside}><Aside info_aside={filter_info}/></div>
         <div className={classes.Statistics}><Statistics info_statistics={filter_info}/></div>
-        <div className={classes.Logo}><Main info_main={filter_info}/></div>
+        {/* <div className={classes.Logo}><Main info_main={filter_info}/></div> */}
+        <div className={classes.Logo}><MainDetail info_main={filter_info}/></div>
         <div className={classes.Description}><Description info_description={filter_info}/></div>
       </div>
     </Fragment>

@@ -1,31 +1,38 @@
 .general_container{
-    width: 80%;
-    margin: 5rem auto 2rem auto;
-    height: 300px;
+    width: 100%;
+    margin: 7rem auto 2rem auto;
+    height: 260px;
     display: flex;
     justify-content: space-between; 
 }
 
 .container_flex{
-    width: 50%;
-    margin-right: 20px;
+    width: 60%;
+    margin-right: 30px;
     height: auto;
     border-radius: 20px;
-    padding:15px;
+    padding:30px;
     background: #2C2F33;
     box-shadow: -6.22302px -6.22302px 18.6691px #3B4451, 6.22302px 6.22302px 18.6691px #000000;
+    transition: transform 0.4s;
 }
 
+.container_flex:hover{
+    transform: scale(1.15);
+}
+
+
 .container_flex h1{
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: white;
     font-weight: bold;
+    text-align: center;
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
 
 .container_flex h6{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: white;
     font-weight: bold;
     letter-spacing: 1px;
@@ -38,18 +45,29 @@
     justify-content: space-between;
 }
 
-.item_flex h4{
-    font-size: 0.8rem;
+.item_flex div{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container_flex .item_flex_title h4{
+    font-size: 1rem;
     color: #FFF139;
     letter-spacing: 1px;
     margin-bottom: 5px;
+}
+
+.container_flex .item_flex_title{
+    display:flex;
+    justify-content: space-between;
 }
 
 .item_flex h5{
     font-size: 0.8rem;
     color: white;
     letter-spacing: 1px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .item_flex p{
@@ -66,9 +84,3 @@
     align-self: center;
 }
 
-.container_address {
-    font-size: 0.7rem;
-    color: white;
-    font-weight: bold;
-    letter-spacing: 1px;
-}

@@ -1,16 +1,16 @@
-.container_flex {
-    width: 50%;
-    max-width: 50%;
-    margin: auto;
+.container_flex_2 {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
     height: auto;
     display: flex;
     justify-content: center;
 }
 
-.container_flex div{
-    width: 50%;
-    max-width: 50%;
-    height: 150px;
+.container_flex_2 div{
+    width: 82%;
+    max-width: 82%;
+    height: 230px;
     margin: 10px;
     background: linear-gradient(138.69deg, #1D5BA9 0%, #0A325A 100%);
     box-shadow: -6.22302px -6.22302px 18.6691px #3B4451, 6.22302px 6.22302px 18.6691px #000000;
@@ -19,32 +19,32 @@
 
 }
 
-.container_flex div:hover{
+.container_flex_2 div:hover{
     transform: scale(1.15);
 }
 
-.container_flex img{
-    width: 50px;
-    height: 50px;
+.container_flex_2 img{
+    width: 100px;
+    height: 100px;
     object-fit: cover;
 }
 
-.container_flex h2{
+.container_flex_2 h2{
     font-size: 1.1rem;
     font-weight: 600;
     text-align: left;
     padding-left:30px;
+    padding-bottom: 20px;
     margin-top: 18px;
     color: #F2F5F8;
     letter-spacing: 2px;
 
 }
 
-.container_flex h1{
+.container_flex_2 h1{
     font-size: 1.3rem;
     font-weight: 600;
     text-align: center;
-    margin-top: 20px;
     color: #FFFFFF;
     letter-spacing: 1px;
 }

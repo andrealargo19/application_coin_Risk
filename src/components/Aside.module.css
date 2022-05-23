@@ -1,60 +1,21 @@
 .aside_container{
-   
-    top:12rem;
-    right: 3rem;
-    width: 80%;
+    width: 75%;
+    margin: 0 auto;
     height: auto;
     display: flex;
-    padding: 12px;
-    border-radius: 20px;
+    padding: 5px;
+    border-radius: 15px;
     flex-direction: column;
     justify-content: space-around;
     background-color: #2C2F33;
     box-shadow: -6.22302px -6.22302px 18.6691px #3B4451, 6.22302px 6.22302px 18.6691px #000000;
 }
-
-.aside_item{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.aside_item div{
-    text-align: left;
-
-}
-.aside_item img{
-    width: 45px;
-    height: 45px;
-    align-self: center;
-}
-
 .aside_container h5{
     font-size: 1.1rem;
     font-weight: bold;
     color: white;
     letter-spacing: 1px;
     padding-left: 25px;
-}
-
-.aside_item h4{
-    font-size: 1rem;
-    font-weight: 600;
-    color: white;
-    letter-spacing: 2px;
-}
-
-.aside_item p{
-    font-size: 0.9rem;
-    font-weight: lighter;
-    color:white;
-
-}
-
- .aside_container span {
-    font-size: 0.7rem;
-    font-weight: lighter;
-    color:white;
 }
 
  .aside_container button{
@@ -77,29 +38,10 @@
     transform: scale(1.15);
 }
 
-/* @media only screen and (min-width:320px) and (max-width: 799px){
+
+/* @media only screen and (min-width:375px) and (max-width: 900px){
     .aside_container{
         display: none;
-        
-    }   
-}
-
-@media only screen and (min-width:800px) and (max-width: 1200px){
-    .aside_container{
-        top: 12rem;
-        right: 9rem;
-        width: 24%;
-        padding: 5px;
-    }  
-     
-}
-
-@media only screen and (min-width:1200px) and (max-width: 1700px){
-    .aside_container{
-        top: 12rem;
-        right: 8rem;
-        width: 18%;
-        padding: 5px;
     }  
      
 } */

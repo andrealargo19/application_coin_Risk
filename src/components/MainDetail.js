@@ -1,14 +1,13 @@
 import React, { Fragment } from 'react';
-import classes from './Main.module.css';
-import MainItem from './MainItem';
+import classes from './MainDetail.module.css';
+import MainItemDetails from './MainItemDetails';
 
 
-
-export default function Main(props) {
+export default function MainDetail(props) {
   const ListItems = () => {
     const ListComponent = [];
     for (const element of props.info_main ) {
-      ListComponent.push(<MainItem key={element.name} info={element}/>);
+      ListComponent.push(<MainItemDetails key={element.name} info={element}/>);
     }
     return ListComponent
   };

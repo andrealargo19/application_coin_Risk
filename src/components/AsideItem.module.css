@@ -42,22 +42,3 @@
     color:white;
 }
 
- .aside_item button{
-    background: #2C2F33;
-    box-shadow: -6.22302px -6.22302px 18.6691px #3B4451, 6.22302px 6.22302px 18.6691px #000000;
-    color: white;
-    font-size: 0.8rem;
-    font-weight:lighter;
-    border: none;
-    border-radius: 10px;
-    align-self: center;
-    width: 120px;
-    height: 30px;
-    margin: 25px 0px 20px 0;
-    cursor: pointer;
-    transition: transform 0.4s;
-}
-
- button:hover{
-    transform: scale(1.15);
-}
